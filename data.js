@@ -39,7 +39,7 @@ const WORDS = [
     phonetic: "/fɪʃ/",
     definition: "An animal that lives in water and has fins and gills.",
     example: "We saw colorful fish swimming in the aquarium.",
-    image: "https://images.unsplash.com/photo-1518834107812-67b0b7c58434?auto=format&fit=crop&w=500"
+    image: "https://images.unsplash.com/photo-1524704654690-b56c05c78a00"
   },
   {
     word: "car",
@@ -110,5 +110,33 @@ const WORDS = [
     definition: "A sweet frozen treat that comes in flavors.",
     example: "I got chocolate ice cream in a cone.",
     image: "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&fit=crop&w=500"
+  },
+  {
+    word: "chair",
+    phonetic: "/tʃer/",
+    definition: "A piece of furniture to sit on.",
+    example: "He sat on the chair at the table.",
+    image: "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?auto=format&fit=crop&w=500"
+  },
+  {
+    word: "flower",
+    phonetic: "/ˈflaʊər/",
+    definition: "The colorful part of a plant that smells nice.",
+    example: "She picked a red flower from the garden.",
+    image: "https://images.unsplash.com/photo-1527061011665-3652c757a4d4?auto=format&fit=crop&w=500"
+  },
+  {
+    word: "mountain",
+    phonetic: "/ˈmaʊntən/",
+    definition: "A very tall natural place with rocks.",
+    example: "We saw snow on top of the mountain.",
+    image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=500"
+  },
+  {
+    word: "bicycle",
+    phonetic: "/ˈbaɪsɪkl/",
+    definition: "A vehicle with two wheels you pedal.",
+    example: "He learned to ride his bicycle without training wheels.",
+    image: "https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&w=500"
   }
 ];
