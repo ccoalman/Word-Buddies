@@ -2,25 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Learn Words</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <h1 id="word">Loading...</h1>
+  <div class="page-container">
+    <div class="content-card">
+      <div class="header">
+        <h1>Learn Words</h1>
+        <div class="progress">Word <span id="current">1</span> of <span id="total">10</span></div>
+      </div>
+      
+      <div class="word-container">
+        <h1 id="word" class="word-display">Loading...</h1>
+        <div id="phonetic" class="phonetic"></div>
+      </div>
+      
+      <div class="image-container">
+        <img id="word-image" class="word-image" src="" alt="Word Image">
+        <div class="loader hidden" id="loader"></div>
+      </div>
+      
+      <div class="definition-container">
+        <div id="definition" class="definition-text"></div>
+        <div id="example" class="example-text"></div>
+      </div>
+      
+      <div class="button-group">
+        <button id="play-audio" class="button icon-button">
+          <i class="fas fa-volume-up"></i>
+        </button>
+        <button id="prev-word" class="button">
+          <i class="fas fa-arrow-left"></i> Previous
+        </button>
+        <button id="next-word" class="button">
+          Next <i class="fas fa-arrow-right"></i>
+        </button>
+      </div>
+      <a href="index.html" class="button back-button">
+        <i class="fas fa-home"></i> Back to Home
+      </a>
+    </div>
+  </div>
 
-  <img id="word-image" src="" alt="Word Image" width="250" style="border-radius: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.2); margin-bottom: 20px;">
-
-  <p id="definition">Loading definition...</p>
-  <p id="example"></p>
-
-  <button id="play-audio" class="button" style="display:none;">🔊 Play Sound</button>
-  <br><br>
-
-  <button id="next-word" class="button">Next Word</button>
-  <br><br>
-
-  <a href="index.html" class="button">⬅️ Back</a>
-
-  <script src="script.js"></script>
+  <script src="data.js"></script>
+  <script src="learn.js"></script>
 </body>
 </html>
